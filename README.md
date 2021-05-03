@@ -7,7 +7,7 @@ A very simple version of pong for the Sony Playstation.
 
 ### Info
 
-Its very simple, probably poorly written example of pong. It was written quickly as a simple example of how to throw something together.
+Simple example of a making a game. It was written quickly as an example of how to throw something together on the psx quickly.
 
 ![Game Screen](https://github.com/danhans42/psx_pong/blob/main/images/screenshot2.png)
 
