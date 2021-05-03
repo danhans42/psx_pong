@@ -1,7 +1,8 @@
 
-## "PSX PONG"
+## PSX PONG
+A very simple version of pong for the Sony Playstation. 
 
-### About
+### Info
 
 Its very simple, probably poorly written example of pong. It was written quickly as a simple example of how to throw something together.
 
@@ -23,7 +24,7 @@ Using Ubuntu/Mint Linux..
 
 To run this on a console you would need to transfer the EXE file over to the PSX somehow. You can do this old school with the cheat cart & comms routes (xplorer/AR&GS), ROM replacements for the aforementioned such as Unirom/n00brom/Caetla or even a unirom running via FreePSXBoot and a serial cable. 
 
-To run pong using unirom and a serial cable type "nops /exe psxpong.exe COM3", changing the serial port as necessary for your setup. If you are using nops on linux you will need to install mono.
+To run psxpong using unirom and a serial cable type "nops /exe pong.exe COM3", changing the serial port as necessary for your setup. Note: If you are using nops on linux you will need to install mono.
 
 To run pong on an emulator use the load EXE function in your emulator.
 
