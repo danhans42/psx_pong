@@ -17,7 +17,8 @@ I am only covering Ubuntu/Mint Linux (or WSL) but should be fairly straightforwa
 
 1. Clone this repo 
 2. grab gcc-10-mipsel-linux-gnu using  "sudo apt install gcc-10-mipsel-linux-gnu"
-3. type make
+3. cd to psx_pong
+4. type make
 
 I probably need to double check this..
 
