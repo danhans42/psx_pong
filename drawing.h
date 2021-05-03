@@ -42,6 +42,7 @@ void Blah( char* pMSG, ... );
 void ClearScreenText();
 unsigned long GetLogBuffer();
 unsigned long GetLogBufferEnd();
+void DrawGitQR();
 
 
 // Various drwawing primitives

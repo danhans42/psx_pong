@@ -12,6 +12,7 @@
 #include "ttyredirect.h"
 #include "hwregs.h"
 #include "config.h"
+#include "git_url.h"
 
 
 // Little outline rectangles:
@@ -58,6 +59,9 @@ void Draw(){
 ulong GetFrameCount(){
 	return frameCounter;
 }
+
+
+
 
 
 // Wrapper for GPU drawTile
@@ -460,3 +464,41 @@ void HoldMessage(){
 	}
 
 }
+
+void DrawQR( unsigned char * bytes, unsigned int dimensions, int xOffset, int yOffset, int xScale, int yScale ){
+
+    int row = 0;
+    int col = 0;
+
+    int numBits = dimensions * dimensions;
+    for( int i = 0; i < numBits; i++ ){
+
+        int x = xOffset + ( col * xScale );
+        int y = yOffset + ( row * yScale );
+        
+        int whichByte = i / 8;
+        int whichBit = i % 8;
+
+        char mask = 1 << (7-whichBit);
+
+        char isBlack =  (( bytes[ whichByte ] & mask ) != 0);
+
+        BorderTileColor( x, y, xScale, yScale, isBlack ? 0x000000 : 0xFFFFFF );
+
+        col++;
+        if ( col >= dimensions ){
+            col = 0;
+            row++;
+        }
+        
+    }
+    
+}
+
+
+void DrawGitQR() {
+
+		DrawQR( qrData_danhanspong,37,348,125,3,2);		
+
+
+};

@@ -168,11 +168,11 @@ void MainScreen() {
 		DrawBG();
 	
 		Blah("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-		Blah("                      Press Start To Play\n\n\n\n\n");
-		Blah("            http://www.github.com/danhans42/psx_pong \n");
+		Blah("                 Press Start To Play\n\n\n\n\n");
+		Blah("      github.com/danhans42/psx_pong \n");
 		DrawGameArea();
-		DrawLogo();		
-
+		DrawLogo();
+		DrawGitQR();
 		if ( Released( PADstart ) ){
 			GameScreen();
 		}
