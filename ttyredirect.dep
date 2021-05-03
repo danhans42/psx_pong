@@ -1,0 +1,3 @@
+ttyredirect.o: ttyredirect.c ttyredirect.h littlelibc.h \
+ /usr/lib/gcc-cross/mipsel-linux-gnu/10/include/stdarg.h utility.h pads.h \
+ drawing.h

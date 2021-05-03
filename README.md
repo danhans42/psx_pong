@@ -38,6 +38,8 @@ To run pong on an emulator use the load EXE function in your emulator.
 This was written using the helloworld_and_flappycredits Pad/GPU example by Sicklebrick as a base :-
 https://github.com/JonathanDotCel/helloworld_and_flappycredits
 
+Thank you also to Sickle for the QR Code and function to display it :)
+
 Using the following Pong game logic article by William Doane :-
 https://drdoane.com/thinking-through-a-basic-pong-game-in-processing/
 
