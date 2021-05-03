@@ -1,5 +1,9 @@
 
 ## PSX PONG
+
+![Main Screen](https://github.com/danhans42/psx_pong/blob/main/images/screenshot1.png)
+
+https://github.com/danhans42/psx_pong/blob/main/images/screenshot1.png?raw=true
 A very simple version of pong for the Sony Playstation. 
 
 ### Info
