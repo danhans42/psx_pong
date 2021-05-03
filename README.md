@@ -23,11 +23,11 @@ Using Ubuntu/Mint Linux..
 
 To run this on a console you would need to transfer the EXE file over to the PSX somehow. You can do this old school with the cheat cart & comms routes (xplorer/AR&GS), ROM replacements for the aforementioned such as Unirom/n00brom/Caetla or even a unirom running via FreePSXBoot and a serial cable. 
 
-To run pong using unirom and a serial cable type "nops /exe psxpong.exe /dev/ttyUSB0", changing the serial port as necessary for your setup.
+To run pong using unirom and a serial cable type "nops /exe psxpong.exe COM3", changing the serial port as necessary for your setup. If you are using nops on linux you will need to install mono.
 
 To run pong on an emulator use the load EXE function in your emulator.
 
-### Thanks & Links
+### Links
 
 This was written using the helloworld_and_flappycredits Pad/GPU example by Sicklebrick as a base :-
 https://github.com/JonathanDotCel/helloworld_and_flappycredits
@@ -35,9 +35,11 @@ https://github.com/JonathanDotCel/helloworld_and_flappycredits
 Using the following Pong game logic article by William Doane :-
 https://drdoane.com/thinking-through-a-basic-pong-game-in-processing/
 
-Packed version is compressed using upx :- 
+The font used was made using one of the ZX Origins fonts by damieng :- 
+https://damieng.com/typography/zx-origins/ 
+However I cant remember which one I used :)
+
+pong_packed is a UPX compressed version . :- 
 https://upx.github.io/
 
-Shouts, thanks and greets to everyone on psxdev forums/discord.
-
-For more PSX related chat join us on the #psxdev server.
+For more PSX related chat join us on the #psxdev discord server.
