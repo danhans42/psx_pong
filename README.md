@@ -3,12 +3,13 @@
 
 ![Main Screen](https://github.com/danhans42/psx_pong/blob/main/images/screenshot1.png)
 
-https://github.com/danhans42/psx_pong/blob/main/images/screenshot1.png?raw=true
-A very simple version of pong for the Sony Playstation. 
+A very simple version of pong for the Sony Playstation.
 
 ### Info
 
 Its very simple, probably poorly written example of pong. It was written quickly as a simple example of how to throw something together.
+
+![Game Screen](https://github.com/danhans42/psx_pong/blob/main/images/screenshot2.png)
 
 It uses one pad for both players. UP/DOWN are player 1, Triangle/X are player 2. First to 10 wins.
 
@@ -32,7 +33,7 @@ To run psxpong using unirom and a serial cable type "nops /exe pong.exe COM3", c
 
 To run pong on an emulator use the load EXE function in your emulator.
 
-### Links
+### Links/Credit/Thanks
 
 This was written using the helloworld_and_flappycredits Pad/GPU example by Sicklebrick as a base :-
 https://github.com/JonathanDotCel/helloworld_and_flappycredits
