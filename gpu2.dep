@@ -1,0 +1,2 @@
+gpu2.o: gpu2.c gpu.h drawing.h hwregs.h littlelibc.h \
+ /usr/lib/gcc-cross/mipsel-linux-gnu/9/include/stdarg.h utility.h pads.h
