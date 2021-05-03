@@ -1,26 +1,23 @@
 
 ## "PSX PONG"
 
-by danhans42
-
 ### About
 
 Its very simple, probably poorly written example of pong. It was written quickly as a simple example of how to throw something together.
 
-It uses one pad for both players. UP/DOWN are player 1, CIRCLE/X are player 2.
+It uses one pad for both players. UP/DOWN are player 1, Triangle/X are player 2. First to 10 wins.
 
 I will probably get around to adding difficulty/two pad support/hiscore/sound etc.
 
 ### Compiling the source
 
-I am only covering Ubuntu/Mint Linux (or WSL) but should be fairly straightforward on other Linuxes etc.
+Using Ubuntu/Mint Linux.. 
 
 1. Clone this repo 
 2. grab gcc-10-mipsel-linux-gnu using  "sudo apt install gcc-10-mipsel-linux-gnu"
 3. cd to psx_pong
 4. type make
-
-I probably need to double check this..
+5. You should then have a pong.ps-exe in your folder
 
 ### Running on a Console/Emulator
 
@@ -38,7 +35,9 @@ https://github.com/JonathanDotCel/helloworld_and_flappycredits
 Using the following Pong game logic article by William Doane :-
 https://drdoane.com/thinking-through-a-basic-pong-game-in-processing/
 
-Shouts, thanks and greets to everyone on psxdev forums/discord
+Packed version is compressed using upx :- 
+https://upx.github.io/
+
+Shouts, thanks and greets to everyone on psxdev forums/discord.
 
 For more PSX related chat join us on the #psxdev server.
-
