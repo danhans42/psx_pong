@@ -43,9 +43,9 @@ https://drdoane.com/thinking-through-a-basic-pong-game-in-processing/
 
 The font used was made using one of the ZX Origins fonts by damieng :- 
 https://damieng.com/typography/zx-origins/ 
-However I cant remember which one I used :)
+However, I can't remember which one I used :)
 
-pong_packed is a UPX compressed version . :- 
-https://upx.github.io/
+pong_packed is a compressed version using ps1-packer by Nicolas "Pixel" Noble :-
+https://github.com/grumpycoders/pcsx-redux/tree/main/tools/ps1-packer
 
 For more PSX related chat join us on the #psxdev discord server.
