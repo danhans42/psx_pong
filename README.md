@@ -1,15 +1,11 @@
 
 ## "PSX PONG"
 
-http://psx0.wordpress.com/ 
-
-http://www.github.com/danhans42/
+by danhans42
 
 ### About
 
-My first ever PlayStation game.
-
-Its very simple, probably poorly written but was written quickly as a simple example of how to throw something together.
+Its very simple, probably poorly written example of pong. It was written quickly as a simple example of how to throw something together.
 
 It uses one pad for both players. UP/DOWN are player 1, CIRCLE/X are player 2.
 
@@ -35,10 +31,10 @@ To run pong on an emulator use the load EXE function in your emulator.
 
 ### Thanks & Links
 
-This was written using the helloworld_and_flappycredits Pad/GPU example by Sicklebrick as a base, 
+This was written using the helloworld_and_flappycredits Pad/GPU example by Sicklebrick as a base :-
 https://github.com/JonathanDotCel/helloworld_and_flappycredits
 
-Using the following Pong game logic article by William Doane,
+Using the following Pong game logic article by William Doane :-
 https://drdoane.com/thinking-through-a-basic-pong-game-in-processing/
 
 Shouts, thanks and greets to everyone on psxdev forums/discord
