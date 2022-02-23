@@ -50,4 +50,4 @@ However, I can't remember which one I used :)
 pong_packed is a compressed version using ps1-packer by Nicolas "Pixel" Noble :-
 https://github.com/grumpycoders/pcsx-redux/tree/main/tools/ps1-packer
 
-For more PSX related chat join us on the #psxdev discord server.
+For more PSX related chat join us on the psx.dev discord server - see https://psx.dev/
